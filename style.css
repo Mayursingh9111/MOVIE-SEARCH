@@ -89,15 +89,30 @@
     width: 100%;
 }
 
-@media (width<550px) {
+@media (width<600px) {
 
     .container{
-        margin-left: 60px;
-        
+        /* margin-left: 40px; */
+        width: 100%;
         
     }
     #search{
         width: 50%;
-        margin-left: 0;
+        margin-left: 40px;
+    }
+    .movie-card{
+        width: 100%;
+    }
+}
+@media (600px<=width<=1214px) {
+    .movie-card{
+        width: 29%;
+    }
+    .container{
+        width: 100%;
+        margin-left: 0px;
+    }
+    #search{
+        margin-left: 30%;
     }
 }
